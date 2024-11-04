@@ -9,14 +9,34 @@ This replication package contains the dataset and code for our paper `Lingual-Fu
    git clone https://github.com/yourusername/TaVer.git
    cd TaVer
 
-2. **Install required packages**:  
+2. **Environment**:  
     Make sure you have Python 3.8.10 installed, then install the dependencies:
     
     ```bash
     pip install -r requirements.txt
 
 ## Usage
-### Datasets
-The dataset for this project is located in the `datasets/` directory. If using a new dataset, please adjust its format according to the required specifications.
+### Data Preparation
+- **Datasets**: The dataset for this project is located in the `datasets/` directory and includes samples from multiple programming languages, such as C, Java, Python, and PHP. If using a new dataset, please ensure it aligns with the required format to facilitate effective vulnerability detection.
+
+- **Data Processing**: 
+  ```bash
+  bash data_process.sh
+
+### Training and Evaluation
+     bash train.sh
+
+### Testing
+     bash test.sh
+
+## File Structure
+- `checkpoints/`: Saved models
+- `datasets/`: `.jsonl` format datasets
+- `models/`: CodeBERT pre-trained model
+- `results/`: Code vulnerability detection results
+- `utils/`: Utility scripts and tools
+   - `parserTool/`: Code parsing tools
+   - `pkl_folder/`: `.pkl` files generated from data preprocessing
+
 
 
