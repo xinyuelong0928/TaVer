@@ -6,7 +6,7 @@ This replication package contains the dataset and code for our paper `Lingual-Fu
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/TaVer.git
+   git clone https://github.com/xinyuelong0928/TaVer.git
    cd TaVer
 
 2. **Environment**:  
