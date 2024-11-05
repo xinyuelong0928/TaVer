@@ -30,12 +30,12 @@ This replication package contains the dataset and code for our paper `Lingual-Fu
      bash test.sh
 
 ## File Structure
-- `checkpoints/`: Saved models
+- `checkpoints/`: saved models
 - `datasets/`: `.jsonl` format datasets
 - `models/`: CodeBERT pre-trained model
-- `results/`: Code vulnerability detection results
-- `utils/`: Utility scripts and tools
-   - `parserTool/`: Code parsing tools
+- `results/`: code vulnerability detection results
+- `utils/`: utility scripts and tools
+   - `parserTool/`: code parsing tools
    - `pkl_folder/`: `.pkl` files generated from data preprocessing
 
 
