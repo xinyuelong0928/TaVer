@@ -21,7 +21,7 @@ This replication package contains the dataset and code for our paper `Lingual-Fu
 
 - **Data Processing**: 
   ```bash
-  bash data_process.sh
+  bash data.sh
 
 ### Training and Evaluation
      bash train.sh
