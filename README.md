@@ -40,7 +40,7 @@ This replication package contains the dataset and code for our paper `Lingual-Fu
 
 ## Citation
 If you find our work useful, please cite the following paper:
-```bash
+```text
 @ARTICLE{10856218,
   author={Long, Xinyue and Guo, Shikai and Chai, Yu and Li, Hui and Jan, Sumaira Ameer and Ma, Qian and Ning, Qiao},
   journal={IEEE Transactions on Consumer Electronics}, 
