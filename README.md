@@ -38,5 +38,16 @@ This replication package contains the dataset and code for our paper `Lingual-Fu
    - `parserTool/`: code parsing tools
    - `pkl_folder/`: `.pkl` files generated from data preprocessing
 
-
-
+## Citation
+If you find our work useful, please cite the following paper:
+```bibtex
+@ARTICLE{10856218,
+  author={Long, Xinyue and Guo, Shikai and Chai, Yu and Li, Hui and Jan, Sumaira Ameer and Ma, Qian and Ning, Qiao},
+  journal={IEEE Transactions on Consumer Electronics}, 
+  title={Lingual-Fusion Adapter-Based Transfer Learning for Low-Resource Code Vulnerability Detection}, 
+  year={2025},
+  volume={71},
+  number={1},
+  pages={1008-1023},
+  doi={10.1109/TCE.2025.3535638}
+}
